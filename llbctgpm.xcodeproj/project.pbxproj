@@ -16,6 +16,7 @@
 		41EF66B92458BB0E00C607A4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41EF66B72458BB0E00C607A4 /* Main.storyboard */; };
 		41EF66BB2458BB1500C607A4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41EF66BA2458BB1500C607A4 /* Assets.xcassets */; };
 		41EF66BE2458BB1500C607A4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41EF66BC2458BB1500C607A4 /* LaunchScreen.storyboard */; };
+		41EF66C42458BD5B00C607A4 /* llbctgpm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41EF66C32458BD5B00C607A4 /* llbctgpm.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +44,7 @@
 		41EF66BA2458BB1500C607A4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		41EF66BD2458BB1500C607A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		41EF66BF2458BB1500C607A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		41EF66C32458BD5B00C607A4 /* llbctgpm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = llbctgpm.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 			children = (
 				41EF66942458BA8500C607A4 /* llbctgpm.h */,
 				41EF66952458BA8500C607A4 /* Info.plist */,
+				41EF66C32458BD5B00C607A4 /* llbctgpm.swift */,
 			);
 			path = llbctgpm;
 			sourceTree = "<group>";
@@ -202,6 +205,7 @@
 				TargetAttributes = {
 					41EF66902458BA8500C607A4 = {
 						CreatedOnToolsVersion = 11.4.1;
+						LastSwiftMigration = 1140;
 					};
 					41EF66992458BA8600C607A4 = {
 						CreatedOnToolsVersion = 11.4.1;
@@ -263,6 +267,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				41EF66C42458BD5B00C607A4 /* llbctgpm.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -437,6 +442,7 @@
 		41EF66A62458BA8600C607A4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -452,6 +458,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = hu.mihalybezzeg.llbctgpm;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -460,6 +467,7 @@
 		41EF66A72458BA8600C607A4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -483,6 +491,7 @@
 		41EF66A92458BA8600C607A4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = llbctgpmTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -500,6 +509,7 @@
 		41EF66AA2458BA8600C607A4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = llbctgpmTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
