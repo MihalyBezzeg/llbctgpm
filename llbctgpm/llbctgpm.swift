@@ -8,6 +8,8 @@
 
 import Foundation
 public final class llbctgpm {
+    public init() {}
+
     public func generateRandomInt() -> Int {
         Int.random(in: 0 ... 100)
     }
