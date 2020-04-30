@@ -1,0 +1,30 @@
+BCSymbolMap Version: 2.0
+Apple clang version 11.0.3 (clang-1103.0.32.59)
+/Users/bezzegmihaly/Library/Developer/Xcode/DerivedData/llbctgpm-ewzzlgqsrgmqduehtvbdfszbrmys/Build/Intermediates.noindex/ArchiveIntermediates/llbctgpm/IntermediateBuildFilesPath/llbctgpm.build/Release-iphoneos/llbctgpm.build/DerivedSources/llbctgpm_vers.c
+/Users/bezzegmihaly/Documents/Pentius/Credmo/test/llbctgpm
+_$s8llbctgpmMXM
+_$s8llbctgpmAACML
+_$s8llbctgpmAACMf
+_symbolic _____ 8llbctgpmAAC
+_$s8llbctgpmAACMF
+___swift_reflection_version
+_objc_classes
+Apple clang version 11.0.3 (clang-1103.0.32.51)
+<swift-imported-modules>
+Apple Swift version 5.2.2 (swiftlang-1103.0.32.6 clang-1103.0.32.51)
+/Users/bezzegmihaly/Documents/Pentius/Credmo/test/llbctgpm/llbctgpm/llbctgpm.swift
+$s8llbctgpmAACMa
+<compiler-generated>
+deinit
+generateRandomInt
+random
+$ss17FixedWidthIntegerPsE6random2in5usingxSNyxG_qd__ztSGRd__lFZSi_s27SystemRandomNumberGeneratorVTg5
+$sSGsE4next10upperBoundqd__qd___ts17FixedWidthIntegerRd__SURd__lFs27SystemRandomNumberGeneratorV_SuTg5
+$sSuSLsSL1loiySbx_xtFZTW
+$sSus17FixedWidthIntegerssAAP014multipliedFullB02byx4high_9MagnitudeQz3lowtx_tFTW
+$sSu19multipliedFullWidth2bySu4high_Su3lowtSu_tF
+$sSGsE4nextqd__ys17FixedWidthIntegerRd__SURd__lFs27SystemRandomNumberGeneratorV_SuTg5
+$ss17FixedWidthIntegerPsE7_random5usingxqd__z_tSGRd__lFZSu_s27SystemRandomNumberGeneratorVTg5
+$ss27SystemRandomNumberGeneratorVSGsSG4nexts6UInt64VyFTW
+$ss27SystemRandomNumberGeneratorV4nexts6UInt64VyF
+init

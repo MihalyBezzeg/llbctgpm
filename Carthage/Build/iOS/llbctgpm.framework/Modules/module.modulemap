@@ -1,0 +1,11 @@
+framework module llbctgpm {
+  umbrella header "llbctgpm.h"
+
+  export *
+  module * { export * }
+}
+
+module llbctgpm.Swift {
+    header "llbctgpm-Swift.h"
+    requires objc
+}

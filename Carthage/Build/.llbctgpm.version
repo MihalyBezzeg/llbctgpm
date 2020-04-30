@@ -1,0 +1,19 @@
+{
+  "Mac" : [
+
+  ],
+  "watchOS" : [
+
+  ],
+  "tvOS" : [
+
+  ],
+  "commitish" : "af7e823d7d27fcbfbcfda0eafa1d3c10621026cb",
+  "iOS" : [
+    {
+      "name" : "llbctgpm",
+      "hash" : "0661cb025deb6bcd5e1ca90e952198c4822d13ee1ff8a722f16e1bb285c50b8d",
+      "swiftToolchainVersion" : "5.2.2 (swiftlang-1103.0.32.6 clang-1103.0.32.51)"
+    }
+  ]
+}
